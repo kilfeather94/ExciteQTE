@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6252A60E-3457-4C01-57DE-C4CE7CD7E506}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneOSXIntel64:27</UnityBuildTarget>
+    <UnityVersion>5.6.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\InControl\Examples\Basic\CubeController.cs" />
+    <Compile Include="Assets\InControl\Examples\Bindings\CubeController.cs" />
+    <Compile Include="Assets\InControl\Examples\CustomProfile\CubeController.cs" />
+    <Compile Include="Assets\InControl\Examples\CustomProfile\KeyboardAndMouseProfile.cs" />
+    <Compile Include="Assets\InControl\Examples\Gyro\CubeController.cs" />
+    <Compile Include="Assets\InControl\Examples\Gyro\GyroProfile.cs" />
+    <Compile Include="Assets\InControl\Examples\InterfaceMovement\Button.cs" />
+    <Compile Include="Assets\InControl\Examples\InterfaceMovement\ButtonFocus.cs" />
+    <Compile Include="Assets\InControl\Examples\InterfaceMovement\ButtonManager.cs" />
+    <Compile Include="Assets\InControl\Examples\Multiplayer\CubeController.cs" />
+    <Compile Include="Assets\InControl\Examples\TouchControls\CubeController.cs" />
+    <Compile Include="Assets\InControl\OuyaEverywhere\OuyaEverywhereDevice.cs" />
+    <Compile Include="Assets\InControl\OuyaEverywhere\OuyaEverywhereDeviceManager.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\BindingListenOptions.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\BindingSource.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\BindingSourceListener.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\BindingSourceRejectionType.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\BindingSourceType.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\DeviceBindingSource.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\DeviceBindingSourceListener.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\Key.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\KeyBindingSource.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\KeyBindingSourceListener.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\KeyCombo.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\KeyInfo.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\Mouse.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\MouseBindingSource.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\MouseBindingSourceListener.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\PlayerAction.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\PlayerActionSet.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\PlayerOneAxisAction.cs" />
+    <Compile Include="Assets\InControl\Source\Binding\PlayerTwoAxisAction.cs" />
+    <Compile Include="Assets\InControl\Source\Compatibility\HeaderAttribute.cs" />
+    <Compile Include="Assets\InControl\Source\Compatibility\RangeAttribute.cs" />
+    <Compile Include="Assets\InControl\Source\Compatibility\SpaceAttribute.cs" />
+    <Compile Include="Assets\InControl\Source\Components\InControlManager.cs" />
+    <Compile Include="Assets\InControl\Source\Control\IInputControl.cs" />
+    <Compile Include="Assets\InControl\Source\Control\InputControl.cs" />
+    <Compile Include="Assets\InControl\Source\Control\InputControlBase.cs" />
+    <Compile Include="Assets\InControl\Source\Control\InputControlMapping.cs" />
+    <Compile Include="Assets\InControl\Source\Control\InputControlSource.cs" />
+    <Compile Include="Assets\InControl\Source\Control\InputControlState.cs" />
+    <Compile Include="Assets\InControl\Source\Control\InputControlType.cs" />
+    <Compile Include="Assets\InControl\Source\Control\InputRange.cs" />
+    <Compile Include="Assets\InControl\Source\Control\OneAxisInputControl.cs" />
+    <Compile Include="Assets\InControl\Source\Control\TwoAxisInputControl.cs" />
+    <Compile Include="Assets\InControl\Source\Debug\InControlException.cs" />
+    <Compile Include="Assets\InControl\Source\Debug\Logger.cs" />
+    <Compile Include="Assets\InControl\Source\Device\InputDevice.cs" />
+    <Compile Include="Assets\InControl\Source\Device\InputDeviceManager.cs" />
+    <Compile Include="Assets\InControl\Source\GUI\InControlInputModule.cs" />
+    <Compile Include="Assets\InControl\Source\InputManager.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\Controls\TouchButtonControl.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\Controls\TouchStickControl.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\Controls\TouchSwipeControl.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\Controls\TouchTrackControl.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\Touch.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\TouchControl.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\TouchControlAnchor.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\TouchManager.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\TouchSprite.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\TouchUnitType.cs" />
+    <Compile Include="Assets\InControl\Source\Touch\TouchUtility.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\ControlSources\UnityAnalogSource.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\ControlSources\UnityButtonSource.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\ControlSources\UnityGyroAxisSource.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\ControlSources\UnityKeyCodeAxisSource.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\ControlSources\UnityKeyCodeComboSource.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\ControlSources\UnityKeyCodeSource.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\ControlSources\UnityMouseAxisSource.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\ControlSources\UnityMouseButtonSource.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\CustomInputDeviceProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\AmazonFireTVProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\AmazonFireTVRemoteProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\AndroidTVProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\AndroidTVRemoteProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\AppleMFiProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\ExecutionerXProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\GameStickLinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\GameStickProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\GenericAndroidProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\GenericBlackberryProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\GenericLinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\GoogleNexusPlayerProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\GoogleNexusPlayerRemoteProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\GreenThrottleAtlasAndroidProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\HamaBlackForceWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF310LinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF310ModeDMacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF310ModeDWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF310ModeXMacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF310ModeXWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF510LinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF510ModeDMacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF510ModeDWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF510ModeXMacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF510ModeXWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF710LinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF710MacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF710ModeDWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechF710ModeXWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\LogitechWingManWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\MadCatzCTRLRAmazonProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\MadCatzMicroCTRLRAmazonProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\MaxFireBlaze5WinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\MogaProLinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\MogaProMacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\MogaProWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\NVidiaShieldAndroidProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\NVidiaShieldWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\NatecGenesisP44WinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\OuyaAmazonProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\OuyaLinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\OuyaWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation2WinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation3AndroidProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation3BWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation3LinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation3MacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation3ShenghicWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation3WinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation4AndroidProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation4LinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation4MacBTProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation4MacUSBProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation4Profile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStation4WinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\PlayStationVitaPSMProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\SamsungGP20AndroidProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\SpeedlinkStrikeMacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\SpeedlinkStrikeWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\SteelSeriesFreeLinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\SteelSeriesFreeMacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\SteelSeriesFreeWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\ValveStreamingWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\Xbox360AmazonProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\Xbox360AndroidProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\Xbox360LinuxProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\Xbox360MacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\Xbox360WinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\XboxOneMacProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\XboxOneProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\DeviceProfiles\XboxOneWinProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\InputDeviceProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\UnityInputDevice.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\UnityInputDeviceManager.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\UnityInputDeviceProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\UnityInputDeviceProfileList.cs" />
+    <Compile Include="Assets\InControl\Source\Unity\UnknownUnityDeviceProfile.cs" />
+    <Compile Include="Assets\InControl\Source\Utility\RingBuffer.cs" />
+    <Compile Include="Assets\InControl\Source\Utility\SingletonMonoBehavior.cs" />
+    <Compile Include="Assets\InControl\Source\Utility\Utility.cs" />
+    <Compile Include="Assets\InControl\Source\VersionInfo.cs" />
+    <Compile Include="Assets\InControl\Source\XInput\XInputDevice.cs" />
+    <Compile Include="Assets\InControl\Source\XInput\XInputDeviceManager.cs" />
+    <Compile Include="Assets\InControl\Source\XInput\XInputDotNetPure\GamePad.cs" />
+    <Compile Include="Assets\InControl\Source\XInput\XInputDotNetPure\Utils.cs" />
+    <Compile Include="Assets\InControl\Test\TestInputManager.cs" />
+    <Compile Include="Assets\SCRIPTS\ButtonManager.cs" />
+    <Compile Include="Assets\SCRIPTS\DisplayHighscores.cs" />
+    <Compile Include="Assets\SCRIPTS\Game.cs" />
+    <Compile Include="Assets\SCRIPTS\Highscores.cs" />
+    <Compile Include="Assets\SCRIPTS\InputModuleActionAdapter.cs" />
+    <Compile Include="Assets\SCRIPTS\ScoreManager.cs" />
+    <Compile Include="Assets\SCRIPTS\UIController.cs" />
+    <Compile Include="Assets\Sounds.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InControl\Readme\README.txt" />
+    <None Include="Assets\SPRITES\arcade_classic_pizz\pizzadudedotdk.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
